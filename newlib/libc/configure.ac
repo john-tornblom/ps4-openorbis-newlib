@@ -180,6 +180,7 @@ if test -n "${sys_dir}"; then
     netware) AC_CONFIG_FILES([sys/netware/Makefile]) ;;
     or1k) AC_CONFIG_FILES([sys/or1k/Makefile]) ;;
     phoenix) AC_CONFIG_SUBDIRS(sys/phoenix) ;;
+    ps4) AC_CONFIG_SUBDIRS(sys/ps4) ;;
     rdos) AC_CONFIG_FILES([sys/rdos/Makefile]) ;;
     rtems) AC_CONFIG_FILES([sys/rtems/Makefile]) ;;
     sh) AC_CONFIG_FILES([sys/sh/Makefile]) ;;

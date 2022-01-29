@@ -630,6 +630,11 @@ case "${host}" in
   w65-*-*)
 	sys_dir=w65
 	;;
+  x86_64-ps4-*)
+	sys_dir=ps4
+	posix_dir=posix
+	crt1=crt1.o
+	crt1_dir=libc/sys/${sys_dir}
   z8k-*-coff)
 	sys_dir=z8ksim
 	;;
